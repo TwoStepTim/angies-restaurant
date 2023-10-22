@@ -115,7 +115,7 @@ li {
 /********** SECTION II **********/
 
 .section-info {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(img/cafe.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(img/food.jpeg);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
