@@ -33,10 +33,10 @@ li {
 
 /********** VIDEO FRONT **********/
 
-#bg-video {
-    width: 100%;
-    object-fit: fill;
-    height: 100%;
+#bk{
+    width: 100vw;
+    height: 60vh;
+    object-fit: cover;
     z-index: -100;
 }   
 
@@ -44,7 +44,7 @@ li {
 /********** SECTION I **********/
 
 .section-front {
-    height: 100vh;
+    height: 60vh;
     color: #000;
 }
 
