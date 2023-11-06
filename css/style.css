@@ -35,17 +35,24 @@ li {
 
 #bk{
     width: 100vw;
-    height: 60vh;
+    height: 10vh;
     object-fit: cover;
     z-index: -100;
 }   
 
-
+.backdrop{
+    height: 60vh;
+    color: #000;
+}
 /********** SECTION I **********/
 
 .section-front {
+    background-image: url(img/angie-s-restaurant-scaled.jpg);
     height: 60vh;
     color: #000;
+    background-size: cover; /* Ensures the background image covers the entire section */
+    background-position: center; /* Initially positions the image in the center */
+
 }
 
 .hero-container {
@@ -130,6 +137,7 @@ li {
 }
 
 .ss-primary-text {
+    margin-top: 20px;
     text-align: center;
 }
 
@@ -607,7 +615,7 @@ li {
     }
     
     .section-front {
-        background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(img/cafe.jpg);
+        background-image: url(img/angie-s-restaurant-scaled.jpg);
         background-size: cover;
         background-position: center;
         height: 450px;
